@@ -680,8 +680,8 @@ void Logic::King(int x, int y, int ply){
         enemyQueen = 'q';
     }
 
-    int kingX = mKingPos[0];
-    int kingY = mKingPos[1];
+    //kingX = mKingPos[0];
+    //kingY = mKingPos[1];
 
 
     //move right
@@ -745,7 +745,7 @@ void Logic::King(int x, int y, int ply){
     //how knight moves
     
     //   (G) return false
-    return false
+    return false;
     
 }
 //---------------------------------------------------------------------
